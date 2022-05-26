@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,700&display=swap');
+
+body.page-1{
+    background-color: #000;
+    display: flexbox;
+    justify-content: center;
+    padding: 10%;
+}
+
+.landing-page a{
+    border: 0;
+    margin-left: 45%;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    color: #fff;
+    transition: .5s linear;
+}
+
+
+.landing-page a:hover{
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff, 
+                 0 0 40px #fff;
+    transition: .5s linear;
+}
+
+.landing-page h1{
+    padding-left: 10%;
+    color: #484848;
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 7px;
+    transition: .5s linear;
+}
+ 
+  .landing-page h1:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff, 
+                 0 0 40px #fff;
+    transition: .5s linear;
+}
+
+
+.landing-page img{
+    width: 7%;
+    padding-top: 10%;
+    padding-left: 45%;
+}
+
+.transition-fade{
+    opacity: 1;
+    transition: 3000ms;
+}
+
+html.is-animating .transition-fade{
+    opacity: 0;
+}
+
+body.page-2{
+    background-color: antiquewhite;
+    transition: 2000ms;
+    display: flexbox;
+}
+
+.home-page h2{
+    background-color: #e697fb;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    transition: 2000ms;
+    cursor: pointer;
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+    border-radius: 100%;
+    box-shadow:
+      0 0 60px 15px #fff,
+      0 0 100px 60px #f0f,
+      0 0 140px 70px #0ff;
+}
+
+.home-page #burbujitas{
+    display: none;
+    animation: fade-in 1s;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.home-page .burbujita1 {
+    background-color: #5236ef;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    cursor: pointer;
+    position: absolute;
+    top: calc(30% - 20px);
+    left: calc(70% - 20px);
+    border-radius: 100%;
+    box-shadow:
+      0 0 60px 15px #fff,
+      0 0 40px 40px rgb(25, 0, 255),
+      0 0 40px 70px rgb(255, 0, 0);
+}
+
+.home-page .burbujita2 {
+    background-color: #afa496;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    cursor: pointer;
+    position: absolute;
+    top: calc(60% - 20px);
+    left: calc(90% - 20px);
+    border-radius: 10%;
+    box-shadow:
+      0 0 40px 10px 
+}
+
+.home-page .burbujita3 {
+    background-color: #52b1b0;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    cursor: pointer;
+    position: absolute;
+    top: calc(85% - 20px);
+    left: calc(45% - 20px);
+    border-radius: 100%;
+    box-shadow:
+      0 0 60px 15px #fff,
+      0 0 50px 20px rgb(0, 17, 255),
+      0 0 40px 30px rgb(0, 255, 42);
+}
+
+.home-page .burbujita4 {
+    background-color: #c0ff6c;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    cursor: pointer;
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(20% - 20px);
+    border-radius: 100%;
+    box-shadow:
+      0 0 60px 15px #fff,
+      0 0 20px 10px rgb(208, 255, 0),
+      0 0 40px 20px rgb(0, 255, 255);
+}
+
+.home-page .burbujita5 {
+    background-color: #bca665;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    cursor: pointer;
+    position: absolute;
+    top: calc(30% - 20px);
+    left: calc(40% - 20px);
+    border-radius: 100%;
+    box-shadow:
+      0 0 60px 15px #fff,
+      0 0 30px 10px rgb(255, 0, 0),
+      0 0 40px 20px rgb(0, 255, 21);
+}
+
+.home-page .burbujita6 {
+    background-color: #ccd95c;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    cursor: pointer;
+    position: absolute;
+    top: calc(15% - 20px);
+    left: calc(10% - 20px);
+    border-radius: 100%;
+    box-shadow:
+      0 0 60px 15px #fff,
+      0 0 100px 60px rgb(145, 255, 0),
+      0 0 140px 70px rgb(255, 0, 0);
+}
