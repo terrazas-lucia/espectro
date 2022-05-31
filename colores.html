@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
     <script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
     <script defer src="lib/dist/SwupBodyClassPlugin.min.js"></script>
     <script defer src="script.js"></script>
-    <link rel="stylesheet" href="styles/index.css">
     <title>e s p e c t r o</title>
 </head>
 
-<body class="page-2">
+<body class="page-2" id="color-changing">
     <main id="swup" class="transition-fade">
         <div class="home-page">
+            <audio src="audio/instrumental.mp3" loop autoplay></audio>
             <h2 onclick="showClouds()">Sentir</h2>
             <div id="burbujitas">
-                <a class="burbujita1" onclick="PlaySound('melody1')">.</a>
-                <a class="burbujita2" onclick="PlaySound('melody2')">.</a>
-                <a class="burbujita3" onclick="PlaySound('melody3')">.</a>
-                <a class="burbujita4" onclick="PlaySound('melody4')">.</a>
-                <a class="burbujita5" onclick="PlaySound('melody5')">.</a>
-                <a class="burbujita6" onclick="PlaySound('melody6')">.</a>
+                <a class="burbujita1" onclick="PlaySound('melody1'); showMoreClouds()"> . </a>
+                <a class="burbujita2" onclick="PlaySound('melody2')"> . </a>
+                <a class="burbujita3" onclick="PlaySound('melody3')"> . </a>
+                <a class="burbujita4" onclick="PlaySound('melody4')"> . </a>
+                <a class="burbujita5" onclick="PlaySound('melody5')"> . </a>
+                <a class="burbujita6" onclick="PlaySound('melody6')"> . </a>
             </div>
             <div id="mas-burbujitas">
-                <a></a>
+                <a class="burbujita7" onclick="PlaySound()"></a>
                 <a></a>
                 <a></a>
                 <a></a>
