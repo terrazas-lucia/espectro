@@ -8,27 +8,38 @@
     <script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
     <script defer src="lib/dist/SwupBodyClassPlugin.min.js"></script>
     <script defer src="script.js"></script>
+    <link rel="icon" href="img/logo.png" type="image/icon type">
     <title>e s p e c t r o</title>
 </head>
 
-<body class="page-2" id="color-changing">
+<body class="page-2">
     <main id="swup" class="transition-fade">
         <div class="home-page">
             <audio src="audio/instrumental.mp3" loop autoplay></audio>
             <h2 onclick="showClouds()">Sentir</h2>
-            <div id="burbujitas">
-                <a class="burbujita1" onclick="PlaySound('melody1'); showMoreClouds()"> . </a>
-                <a class="burbujita2" onclick="PlaySound('melody2')"> . </a>
-                <a class="burbujita3" onclick="PlaySound('melody3')"> . </a>
-                <a class="burbujita4" onclick="PlaySound('melody4')"> . </a>
-                <a class="burbujita5" onclick="PlaySound('melody5')"> . </a>
-                <a class="burbujita6" onclick="PlaySound('melody6')"> . </a>
+            <div id="burbujitas" style="display: none">
+                <a class="burbujita1" onclick="PlaySound('melody1'); showMoreClouds('1'); changeColor()"> . </a>
+                <a class="burbujita2" onclick="PlaySound('melody2'); changeColor2()"> . </a>
+                <a class="burbujita3" onclick="PlaySound('melody3'); showMoreClouds('2'); changeColor3()"> . </a>
+                <a class="burbujita4" onclick="PlaySound('melody4'); changeColor4()"> . </a>
+                <a class="burbujita5" onclick="PlaySound('melody5'); showMoreClouds('3'); changeColor5()"> . </a>
+                <a class="burbujita6" onclick="PlaySound('melody6'); showMoreClouds('4'); changeColor6()"> . </a>
             </div>
-            <div id="mas-burbujitas">
-                <a class="burbujita7" onclick="PlaySound()"></a>
-                <a></a>
-                <a></a>
-                <a></a>
+            <div id="mas-burbujitas1" style="display: none">
+                <a class="burbujita7" onclick="PlaySound('melody7')"> . </a>
+                <a class="burbujita8" onclick="PlaySound('melody8')"> . </a>
+            </div>
+            <div id="mas-burbujitas2" style="display: none">
+                <a class="burbujita9" onclick="PlaySound('melody9')"> . </a>
+                <a class="burbujita10" onclick="PlaySound('melody10')"> . </a>
+            </div>
+            <div id="mas-burbujitas3" style="display: none">
+                <a class="burbujita11" onclick="PlaySound('melody11')"> . </a>
+                <a class="burbujita12" onclick="PlaySound('melody12')"> . </a>
+            </div>
+            <div id="mas-burbujitas4" style="display: none">
+                <a class="burbujita13" onclick="PlaySound('melody13')"> . </a>
+                <a class="burbujita14" onclick="PlaySound('melody14')"> . </a>
             </div>
         </div>
     </main>

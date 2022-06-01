@@ -60,13 +60,13 @@ html.is-animating .transition-fade{
 }
 
 body.page-2{
-    background-color: antiquewhite;
+    background-color: #d8e0e9;
     transition: 2000ms;
     display: flexbox;
 }
 
 .home-page h2{
-    background-color: #e697fb;
+    background-color: #80d7a9;
     font-size: 20px;
     font-family: 'Fraunces', serif;
     transition: 2000ms;
@@ -76,9 +76,9 @@ body.page-2{
     left: calc(50% - 20px);
     border-radius: 100%;
     box-shadow:
-      0 0 60px 15px #fff,
-      0 0 100px 60px #f0f,
-      0 0 140px 70px #0ff;
+      0 0 60px 15px #A3F7B5,
+      0 0 100px 60px #51BEA1,
+      0 0 140px 70px #42A59F;
 }
 
 .home-page #burbujitas{
@@ -95,8 +95,9 @@ body.page-2{
     }
 }
 
+
 .home-page .burbujita1 {
-    background-color: #5236ef;
+    background-color: #F56416;
     font-size: 20px;
     font-family: 'Fraunces', serif;
     cursor: pointer;
@@ -104,15 +105,15 @@ body.page-2{
     top: calc(30% - 20px);
     left: calc(70% - 20px);
     border-radius: 100%;
-    color: #5236ef;
+    color: #F56416;
     box-shadow:
-      0 0 60px 15px #fff,
-      0 0 40px 40px rgb(25, 0, 255),
-      0 0 40px 70px rgb(255, 0, 0);
+      0 0 60px 15px #E28413,
+      0 0 40px 40px #F56416,
+      0 0 40px 70px #DD4B1A;
 }
 
 .home-page .burbujita2 {
-    background-color: #afa496;
+    background-color: #e7bc14;
     font-size: 20px;
     font-family: 'Fraunces', serif;
     cursor: pointer;
@@ -120,13 +121,15 @@ body.page-2{
     top: calc(60% - 20px);
     left: calc(90% - 20px);
     border-radius: 10%;
-    color: #afa496;
+    color: #e7bc14;
     box-shadow:
-      0 0 40px 10px 
+    0 0 60px 15px #F7CB15,
+    0 0 40px 40px #E1B913,
+    0 0 40px 70px #DA9C1D;
 }
 
 .home-page .burbujita3 {
-    background-color: #52b1b0;
+    background-color: #2d149f;
     font-size: 20px;
     font-family: 'Fraunces', serif;
     cursor: pointer;
@@ -134,15 +137,15 @@ body.page-2{
     top: calc(85% - 20px);
     left: calc(45% - 20px);
     border-radius: 100%;
-    color: #52b1b0;
+    color: #2d149f;
     box-shadow:
-      0 0 60px 15px #fff,
-      0 0 50px 20px rgb(0, 17, 255),
-      0 0 40px 30px rgb(0, 255, 42);
+      0 0 60px 15px #3200FF,
+      0 0 50px 20px #220A99,
+      0 0 40px 30px #07004C;
 }
 
 .home-page .burbujita4 {
-    background-color: #c0ff6c;
+    background-color: #b1c475;
     font-size: 20px;
     font-family: 'Fraunces', serif;
     cursor: pointer;
@@ -150,15 +153,16 @@ body.page-2{
     top: calc(50% - 20px);
     left: calc(20% - 20px);
     border-radius: 100%;
-    color: #c0ff6c;
+    color: #b1c475;
     box-shadow:
-      0 0 60px 15px #fff,
-      0 0 20px 10px rgb(208, 255, 0),
-      0 0 40px 20px rgb(0, 255, 255);
+      0 0 60px 15px #F2E8CF,
+      0 0 20px 10px #A7C957,
+      0 0 40px 20px #6A994E,
+      0 0 60px 30px #386641;
 }
 
 .home-page .burbujita5 {
-    background-color: #bca665;
+    background-color: #CC0000;
     font-size: 20px;
     font-family: 'Fraunces', serif;
     cursor: pointer;
@@ -166,15 +170,16 @@ body.page-2{
     top: calc(30% - 20px);
     left: calc(40% - 20px);
     border-radius: 100%;
-    color: #bca665;
+    color: #CC0000;
     box-shadow:
-      0 0 60px 15px #fff,
-      0 0 30px 10px rgb(255, 0, 0),
-      0 0 40px 20px rgb(0, 255, 21);
+      0 0 60px 15px #F70000,
+      0 0 30px 10px #CC0000,
+      0 0 40px 20px #AB0000,
+      0 0 60px 30px #8A0000;
 }
 
 .home-page .burbujita6 {
-    background-color: #ccd95c;
+    background-color: #be89d4;
     font-size: 20px;
     font-family: 'Fraunces', serif;
     cursor: pointer;
@@ -182,30 +187,157 @@ body.page-2{
     top: calc(15% - 20px);
     left: calc(10% - 20px);
     border-radius: 100%;
-    color: #ccd95c;
+    color: #be89d4;
     box-shadow:
-      0 0 60px 15px #fff,
-      0 0 100px 60px rgb(145, 255, 0),
-      0 0 140px 70px rgb(255, 0, 0);
+      0 0 60px 15px #CC8EF0,
+      0 0 100px 60px #B375D6,
+      0 0 140px 70px #7F44A1;
 }
 
-.home-page #mas-burbujitas{
+.home-page #mas-burbujitas1{
     display: none;
     animation: fade-in 1s;
 }
 
 .home-page .burbujita7{
-    background-color: #ccd95c;
+    background-color: #ffd6ff;
     font-size: 20px;
     font-family: 'Fraunces', serif;
     cursor: pointer;
     position: absolute;
-    top: calc(30% - 20px);
-    left: calc(90% - 20px);
+    top: calc(15% - 20px);
+    left: calc(85% - 20px);
     border-radius: 100%;
-    color: #ccd95c;
+    color: #ffd6ff;
     box-shadow:
-      0 0 60px 15px #fff,
-      0 0 100px 60px rgb(145, 255, 0),
-      0 0 140px 70px rgb(255, 0, 0);
+        0 0 20px 15px #ffd6ff,
+        0 0 20px 20px #c8b6ff,
+        0 0 40px 30px #b8c0ff;
+}
+
+.home-page .burbujita8{
+    background-color: #9c7881;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    cursor: pointer;
+    position: absolute;
+    top: calc(10% - 20px);
+    left: calc(60% - 20px);
+    border-radius: 100%;
+    color: #9c7881;
+    box-shadow:
+        0 0 60px 15px #e5989b,
+        0 0 50px 20px #b5838d,
+        0 0 40px 30px #6d6875;
+}
+
+.home-page #mas-burbujitas2{
+    display: none;
+    animation: fade-in 1s;
+}
+
+.home-page #mas-burbujitas3{
+    display: none;
+    animation: fade-in 1s;
+}
+
+.home-page #mas-burbujitas4{
+    display: none;
+    animation: fade-in 1s;
+}
+
+.home-page .burbujita9{
+    background-color: #de8c87;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    cursor: pointer;
+    position: absolute;
+    top: calc(90% - 20px);
+    left: calc(40% - 20px);
+    border-radius: 100%;
+    color: #de8c87;
+    box-shadow:
+        0 0 15px 2px #f8ad9d,
+        0 0 20px 5px #f4978e,
+        0 0 20px 10px #f08080;
+}
+
+.home-page .burbujita10{
+    background-color: #a7b678;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    cursor: pointer;
+    position: absolute;
+    top: calc(90% - 20px);
+    left: calc(70% - 20px);
+    border-radius: 100%;
+    color: #a7b678;
+    box-shadow:
+        0 0 20px 15px #adc178,
+        0 0 40px 30px #a98467,
+        0 0 70px 40px #6c584c;
+}
+
+.home-page .burbujita11{
+    background-color: #99bafa;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    cursor: pointer;
+    position: absolute;
+    top: calc(20% - 20px);
+    left: calc(45% - 20px);
+    border-radius: 100%;
+    color: #99bafa;
+    box-shadow:
+        0 0 20px 2px #9bf6ff,
+        0 0 20px 5px #a0c4ff,
+        0 0 30px 20px #bdb2ff;
+}
+
+.home-page .burbujita12{
+    background-color: #a36b55;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    cursor: pointer;
+    position: absolute;
+    top: calc(20% - 20px);
+    left: calc(32% - 20px);
+    border-radius: 100%;
+    color: #a36b55;
+    box-shadow:
+        0 0 60px 15px #f4d58d,
+        0 0 50px 20px #bf0603,
+        0 0 40px 30px #708d81;
+}
+
+.home-page .burbujita13{
+    background-color: #88056d;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    cursor: pointer;
+    position: absolute;
+    top: calc(7% - 20px);
+    left: calc(20% - 20px);
+    border-radius: 100%;
+    color: #88056d;
+    box-shadow:
+        0 0 60px 15px #ff0054,
+        0 0 50px 20px #9e0059,
+        0 0 40px 30px #390099;
+}
+
+.home-page .burbujita14{
+    background-color: #067974;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    cursor: pointer;
+    position: absolute;
+    top: calc(75% - 20px);
+    left: calc(10% - 20px);
+    border-radius: 100%;
+    color: #067974;
+    box-shadow:
+        0 0 60px 15px #023436,
+        0 0 50px 20px #00bfb3,
+        0 0 40px 30px #037971;
 }
